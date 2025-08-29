@@ -10,26 +10,93 @@
 
     <!-- tailwind css -->
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
 </head>
 <body>
     
-    <header class=>
-        <nav>
-            <div class="flex">
+    <header>
+        <nav class="flex justify-between">
+            <div class="flex items-center gap-4">
                 
-                <div>
                 <img src="/assets/logo.png" alt="" class="h-[50px] w-[50px] ml-20 mt-5 mb-5">
-                <h1>Emergency <br> Service</h1>
+                <h1 class="font-bold text-[#006747]">Emergency <br> Service</h1>
+                
+            </div>
+<!-- Heart rate -->
+            
+        <div class="flex gap-2 mt-5 mb-5 mr-20">
+            <div>
+                <div class="flex bg-[#41ff6b1a] rounded-3xl w-[100px] h-[52px] p-3 justify-center gap-3">
+                    <h2 id="heart-rate" class="font-bold">0</h2>
+                    <img src="/assets/heart.png" alt="" class="w-[30px] h-[30px]">
                 </div>
             </div>
-        
+<!-- star count  -->
+            
+             <div>
+                <div class="flex bg-[#41ff6b1a] rounded-3xl w-[100px] h-[52px] p-3 justify-center gap-3">
+                    <h2 id="coin-count" class="font-bold">100</h2>
+                    <img src="/assets/coin.png" alt="" class="w-[30px] h-[30px]">
+                </div>
+            </div>
+
+<!--------copy ----->
+
+             <div>
+                <div class="flex bg-[#00a63e] rounded-3xl w-[100px] h-[52px] p-3 justify-center gap-1">
+                    <h2 id="copy-count" class="font-bold text-white">2</h2>
+                     <h2 class="font-bold text-white">Copy</h2>
+
+                </div>
+            </div>
+        </div>
         </nav>
-        <div class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] w-[1920px] h-[239px]">
+        <div class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] w-[1560px] h-[239px] flex justify-center items-center">
+        <div class="flex flex-col items-center gap-y-4 text-center">
+            <img src="/assets/logo-dark.png" alt="" class="w-[92px] h-[92px]">
+            <h1 class="font-bold text-4xl text-white">
+                Emergency Service Directory
+            </h1>
+            <h2 class="font-semibold text-[20px] text-white font-hind"> Government Emergency Services at Your Fingertip - A Project Government of the People's Republic of Bangladesh</h2>
+        </div>
 
         </div>
     </header>
 
-    <main></main>
+    <main>
+        <div class="bg-[#41ff6b1a] h-full w-full">
+            <!-- 3cards -->
+            <div>
+                <div class="w-[380px] h-[320px] flex flex-col  justify-start items-start p-8 rounded-xl bg-white 
+                shadow-[0px_2px_3px_0px] shadow-[#00000026]">
+                <div class="flex justify-between items-center gap-56">
+                    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-2xl flex justify-center items-center">
+                    <img src="/assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    </div>
+                  <i id="love-count" class="fa-regular fa-heart text-[24px]"></i>
+                </div>
+                 <div class="mt-7">
+                    
+                    <h1 class="font-hind font-bold text-[20px]">National Emergency Number</h1>
+                    <p class="font-hind text-[18px]">National Emergency</p>
+                </div> 
+                <div class="mt-4">
+                    <h1 class="font-hind font-bold text-[20px] ml-2">999</h1>
+                    <p class="bg-gray-200 rounded-3xl w-[43px] h-[30px] text-center"> All</p>
+                </div> 
+                <div>
+                    <div>
+                        
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+    </main>
 
     <footer>
 

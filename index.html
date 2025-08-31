@@ -31,7 +31,7 @@
         <div class="flex gap-2 mt-5 mb-5 md:mr-20 ml-16">
             <div>
                 <div class="flex bg-[#41ff6b1a] rounded-3xl w-[100px] h-[52px] p-3 justify-center gap-3">
-                    <h2 class="font-bold"><span id="heart-count">0</span></h2>
+                    <h2 class="font-bold"><span id="love-count">0</span></h2>
                     <img src="/assets/heart.png" alt="" class="w-[30px] h-[30px]">
                 </div>
             </div>
@@ -55,7 +55,7 @@
             </div>
         </div>
         </nav>
-        <div class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] w-[490px] h-[400px]   md:w-[1560px] md:h-[239px] flex justify-center items-center">
+        <div class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] w-[490px] h-[400px] md:w-[1520px] md:h-[239px] flex justify-center items-center">
         <div class="flex flex-col items-center gap-y-4 text-center">
             <img src="/assets/logo-dark.png" alt="" class="w-[92px] h-[92px]">
             <h1 class="font-bold text-3xl md:text-4xl text-white">
@@ -68,90 +68,144 @@
     </header>
 
     <main>
-    <div class="bg-[#41ff6b1a] max-h-fit max-w-full p-8 md:flex gap-4">
+<div class="md:flex bg-[#41ff6b1a] max-h-fit max-w-full">
+    <div class=" p-8 md:flex gap-4">
             <!-- 3cards -->
             <div>
-                <div class="w-[380px] h-[320px] flex flex-col  justify-start items-start p-6 rounded-xl bg-white 
+                <div class="card w-[380px] h-[320px] flex flex-col  justify-start items-start p-6 rounded-xl bg-white 
                 shadow-[0px_2px_3px_0px] shadow-[#00000026] ">
                 <div class="flex justify-between items-center gap-56">
                     <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-2xl flex justify-center items-center">
                     <img src="/assets/emergency.png" alt="" class="w-[32px] h-[32px]">
                     </div>
-                  <i id="love-btn" class="fa-regular fa-heart text-[24px] cursor-pointer hover:scale-110 active:scale-90"></i>
+                  <i  class="love-btn fa-regular fa-heart text-[24px] cursor-pointer hover:scale-110 active:scale-90"></i>
                 </div>
                  <div class="mt-7">
                     
-                    <h1 class="font-hind font-bold text-[20px]">National Emergency Number</h1>
+                    <h1 class="service-name font-hind font-bold text-[20px]">National Emergency Number</h1>
                     <p class="font-hind text-[18px]">National Emergency</p>
                 </div> 
                 <div class="mt-4">
-                    <h1 id="phone-number" class="font-hind font-bold text-[20px] ml-2">999</h1>
+                    <h1 class="phone-number font-hind font-bold text-[20px] ml-2">999</h1>
                     <p class="bg-gray-200 rounded-3xl w-[43px] h-[30px] text-center"> All</p>
                 </div> 
                     <div class="flex justify-between items-center gap-4 mt-4">
-                        <button id="copy-btn" class=" btn btn-wide w-[150px] h-[40px] bg-white border-gray-400 rounded-lg hover:scale-110 active:scale-90"> <i class="fa-regular fa-copy"></i>Copy</button>
-                        <button id="call-btn" class="btn btn-wide w-[150px] h-[40px] bg-green-600 rounded-lg text-white"><i class="fa-solid fa-phone text-white hover:scale-110 active:scale-110"></i> Call</button>
+                        <button class="copy-btn btn btn-wide w-[150px] h-[40px] bg-white border-gray-400 rounded-lg hover:scale-110 active:scale-90"> <i class="fa-regular fa-copy"></i>Copy</button>
+                        <button class="call-btn btn btn-wide w-[150px] h-[40px] bg-green-600 rounded-lg text-white"><i class="fa-solid fa-phone text-white hover:scale-110 active:scale-110"></i> Call</button>
 
                     </div>
                 
             </div>
             </div>
-              <div>
-                <div class="w-[380px] h-[320px] flex flex-col  justify-start items-start p-6 rounded-xl bg-white 
+<!-- Police help line  -->
+            
+ <div>
+                <div class="card w-[380px] h-[320px] flex flex-col  justify-start items-start p-6 rounded-xl bg-white 
                 shadow-[0px_2px_3px_0px] shadow-[#00000026] ">
                 <div class="flex justify-between items-center gap-56">
-                    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-2xl flex justify-center items-center">
-                    <img src="/assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    <div class="bg-[#ace4ee] w-[60px] h-[60px] rounded-2xl flex justify-center items-center">
+                    <img src="/assets/police.png" alt="" class="w-[32px] h-[32px]">
                     </div>
-                  <i id="love-btn" class="fa-regular fa-heart text-[24px] cursor-pointer hover:scale-110 active:scale-90"></i>
+                  <i  class="love-btn fa-regular fa-heart text-[24px] cursor-pointer hover:scale-110 active:scale-90"></i>
                 </div>
                  <div class="mt-7">
                     
-                    <h1 class="font-hind font-bold text-[20px]">National Emergency Number</h1>
-                    <p class="font-hind text-[18px]">National Emergency</p>
+                    <h1 class="service-name font-hind font-bold text-[20px]">Police HelpLine Number</h1>
+                    <p class="font-hind text-[18px]">Police</p>
                 </div> 
                 <div class="mt-4">
-                    <h1 id="phone-number" class="font-hind font-bold text-[20px] ml-2">999</h1>
-                    <p class="bg-gray-200 rounded-3xl w-[43px] h-[30px] text-center"> All</p>
+                    <h1 class="phone-number font-hind font-bold text-[20px] ml-2">999</h1>
+                    <p class="bg-gray-200 rounded-3xl w-[53px] h-[30px] text-center">Police</p>
                 </div> 
                     <div class="flex justify-between items-center gap-4 mt-4">
-                        <button id="copy-btn" class=" btn btn-wide w-[150px] h-[40px] bg-white border-gray-400 rounded-lg hover:scale-110 active:scale-90"> <i class="fa-regular fa-copy"></i>Copy</button>
-                        <button id="call-btn" class="btn btn-wide w-[150px] h-[40px] bg-green-600 rounded-lg text-white"><i class="fa-solid fa-phone text-white hover:scale-110 active:scale-110"></i> Call</button>
+                        <button class="copy-btn btn btn-wide w-[150px] h-[40px] bg-white border-gray-400 rounded-lg hover:scale-110 active:scale-90"> <i class="fa-regular fa-copy"></i>Copy</button>
+                        <button class="call-btn btn btn-wide w-[150px] h-[40px] bg-green-600 rounded-lg text-white"><i class="fa-solid fa-phone text-white hover:scale-110 active:scale-110"></i> Call</button>
 
                     </div>
                 
             </div>
             </div>
-              <div>
-                <div class="w-[380px] h-[320px] flex flex-col  justify-start items-start p-6 rounded-xl bg-white 
+          
+
+
+<!-- Fire service -->
+    <div>
+                <div class="card w-[380px] h-[320px] flex flex-col  justify-start items-start p-6 rounded-xl bg-white 
                 shadow-[0px_2px_3px_0px] shadow-[#00000026] ">
                 <div class="flex justify-between items-center gap-56">
-                    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-2xl flex justify-center items-center">
-                    <img src="/assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    <div class="bg-[#ace4ee] w-[60px] h-[60px] rounded-2xl flex justify-center items-center">
+                    <img src="/assets/police.png" alt="" class="w-[32px] h-[32px]">
                     </div>
-                  <i id="love-btn" class="fa-regular fa-heart text-[24px] cursor-pointer hover:scale-110 active:scale-90"></i>
+                  <i  class="love-btn fa-regular fa-heart text-[24px] cursor-pointer hover:scale-110 active:scale-90"></i>
                 </div>
                  <div class="mt-7">
                     
-                    <h1 class="font-hind font-bold text-[20px]">National Emergency Number</h1>
-                    <p class="font-hind text-[18px]">National Emergency</p>
+                    <h1 class="service-name font-hind font-bold text-[20px]">Police HelpLine Number</h1>
+                    <p class="font-hind text-[18px]">Police</p>
                 </div> 
                 <div class="mt-4">
-                    <h1 id="phone-number" class="font-hind font-bold text-[20px] ml-2">999</h1>
-                    <p class="bg-gray-200 rounded-3xl w-[43px] h-[30px] text-center"> All</p>
+                    <h1 class="phone-number font-hind font-bold text-[20px] ml-2">999</h1>
+                    <p class="bg-gray-200 rounded-3xl w-[53px] h-[30px] text-center">Police</p>
                 </div> 
                     <div class="flex justify-between items-center gap-4 mt-4">
-                        <button id="copy-btn" class=" btn btn-wide w-[150px] h-[40px] bg-white border-gray-400 rounded-lg hover:scale-110 active:scale-90"> <i class="fa-regular fa-copy"></i>Copy</button>
-                        <button id="call-btn" class="btn btn-wide w-[150px] h-[40px] bg-green-600 rounded-lg text-white"><i class="fa-solid fa-phone text-white hover:scale-110 active:scale-110"></i> Call</button>
+                        <button class="copy-btn btn btn-wide w-[150px] h-[40px] bg-white border-gray-400 rounded-lg hover:scale-110 active:scale-90"> <i class="fa-regular fa-copy"></i>Copy</button>
+                        <button class="call-btn btn btn-wide w-[150px] h-[40px] bg-green-600 rounded-lg text-white"><i class="fa-solid fa-phone text-white hover:scale-110 active:scale-110"></i> Call</button>
 
                     </div>
                 
             </div>
-            </div>
+            </div>  
+            
+            
+             <div>
+                <div class="card w-[380px] h-[320px] flex flex-col  justify-start items-start p-6 rounded-xl bg-white 
+                shadow-[0px_2px_3px_0px] shadow-[#00000026] ">
+                <div class="flex justify-between items-center gap-56">
+                    <div class="bg-[#ace4ee] w-[60px] h-[60px] rounded-2xl flex justify-center items-center">
+                    <img src="/assets/police.png" alt="" class="w-[32px] h-[32px]">
+                    </div>
+                  <i  class="love-btn fa-regular fa-heart text-[24px] cursor-pointer hover:scale-110 active:scale-90"></i>
+                </div>
+                 <div class="mt-7">
+                    
+                    <h1 class="service-name font-hind font-bold text-[20px]">Police HelpLine Number</h1>
+                    <p class="font-hind text-[18px]">Police</p>
+                </div> 
+                <div class="mt-4">
+                    <h1 class="phone-number font-hind font-bold text-[20px] ml-2">999</h1>
+                    <p class="bg-gray-200 rounded-3xl w-[53px] h-[30px] text-center">Police</p>
+                </div> 
+                    <div class="flex justify-between items-center gap-4 mt-4">
+                        <button class="copy-btn btn btn-wide w-[150px] h-[40px] bg-white border-gray-400 rounded-lg hover:scale-110 active:scale-90"> <i class="fa-regular fa-copy"></i>Copy</button>
+                        <button class="call-btn btn btn-wide w-[150px] h-[40px] bg-green-600 rounded-lg text-white"><i class="fa-solid fa-phone text-white hover:scale-110 active:scale-110"></i> Call</button>
 
-    </div>
+                    </div>
+                
+            </div>
+            </div>   
+
         
 
+    </div>
+    <div class=" border-2 border-red-500 w-[550px] h-[1140px] flex-col
+    justify-start items-start p-4 rounded-xl shadow-md bg-[#ffffff] mr-4 mt-6">
+
+        <div class="flex items-center justify-between">
+            <div class="flex items-center gap-1.5">
+                <i class="fa-regular fa-clock"></i>
+                <h2 class="font-hind font-semibold">Call History</h2>
+            </div>
+            <div>
+                <h2 class="bg-green-500 w-[90px] h-[32px] rounded-2xl text-white font-semibold 
+                text-center p-1">Clear</h2>
+            </div> 
+        </div>
+    <div id="history-container" class="mt-3">
+       
+    </div>
+</div>
+    
+</div>  
     </main>
 
     <footer>

@@ -6,6 +6,7 @@ const allCallButtons = document.querySelectorAll(".call-btn");
 const coinCountElement = document.getElementById("coin-count"); 
 const copyCountElement = document.getElementById("copy-count"); 
 const loveCountElement = document.getElementById("love-count"); 
+const clearBtnElement = document.getElementById("clear-btn"); 
 const historyContainer = document.getElementById("history-container"); // 
 const callHistory = [];
 
@@ -95,3 +96,10 @@ for (const history of callHistory){
     )
 })
 
+clearBtnElement.addEventListener("click", 
+    function(){
+        if(confirm("You sure to clear the history?")) {
+            historyContainer.innerHTML = ""
+        }
+    }
+)
